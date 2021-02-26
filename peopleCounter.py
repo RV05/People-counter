@@ -8,18 +8,10 @@ import argparse
 import time
 import base64
 
-'''
-Usage:
-python peopleCounter.py -i PATH_TO_IMAGE  # Reads and detect people in a single local stored image
-python peopleCounter.py -c  # Attempts to detect people using webcam
-IMPORTANT: This example is given AS IT IS without any warranty
-Made by: Jose Garcia
-'''
 
 URL_EDUCATIONAL = "http://things.ubidots.com"
 URL_INDUSTRIAL = "http://industrial.api.ubidots.com"
 INDUSTRIAL_USER = False  # Set this to False if you are an educational user
-TOKEN = "BBFF-9XiiXoV2nUiNz5pxkeNkLskEjkCgh1"  # Put here your Ubidots TOKEN
 DEVICE = "detector"  # Device where will be stored the result
 VARIABLE = "people"  # Variable where will be stored the result
 
